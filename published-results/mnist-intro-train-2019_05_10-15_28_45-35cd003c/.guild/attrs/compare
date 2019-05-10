@@ -1,0 +1,6 @@
+- =epochs
+- =batch-size
+- =lr
+- train#loss step as step
+- train#loss as loss
+- validate#accuracy as accuracy

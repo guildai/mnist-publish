@@ -1,0 +1,5 @@
+data:
+- /home/garrett/.guild/cache/resources/5980b7fde40f5c0394c72d940cb6d4e8640d39aa0361c3da5134541b/train-labels-idx1-ubyte.gz
+- /home/garrett/.guild/cache/resources/7d81ab64becd5afde3d50ac5776e6598d9944f4cd0beeaa1e4647b7b/t10k-images-idx3-ubyte.gz
+- /home/garrett/.guild/cache/resources/9dc7919e93cf5fade761b0a130485a22362fa321fc435abe01718946/t10k-labels-idx1-ubyte.gz
+- /home/garrett/.guild/cache/resources/d5c519b6566ca19e5ba3d3df4d026508a2197b7537ff421a117dc3b2/train-images-idx3-ubyte.gz

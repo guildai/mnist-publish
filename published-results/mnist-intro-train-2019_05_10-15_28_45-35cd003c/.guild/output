@@ -1,0 +1,106 @@
+WARNING: [tensorflow] From /home/garrett/SCM/guild-mnist-publish/intro.py:22: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Extracting data/train-images-idx3-ubyte.gz
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting data/train-labels-idx1-ubyte.gz
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting data/t10k-images-idx3-ubyte.gz
+Extracting data/t10k-labels-idx1-ubyte.gz
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: __init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-10 15:28:48.210834: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-10 15:28:48.287044: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:998] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2019-05-10 15:28:48.288250: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x6c854e0 executing computations on platform CUDA. Devices:
+2019-05-10 15:28:48.288266: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): GeForce 940MX, Compute Capability 5.0
+2019-05-10 15:28:48.290218: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2711940000 Hz
+2019-05-10 15:28:48.290796: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x6cef2e0 executing computations on platform Host. Devices:
+2019-05-10 15:28:48.290838: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-05-10 15:28:48.291057: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+name: GeForce 940MX major: 5 minor: 0 memoryClockRate(GHz): 1.2415
+pciBusID: 0000:02:00.0
+totalMemory: 1.96GiB freeMemory: 1.21GiB
+2019-05-10 15:28:48.291069: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2019-05-10 15:28:48.291982: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-10 15:28:48.291992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2019-05-10 15:28:48.291996: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2019-05-10 15:28:48.292105: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 1010 MB memory) -> physical GPU (device: 0, name: GeForce 940MX, pci bus id: 0000:02:00.0, compute capability: 5.0)
+2019-05-10 15:28:49.241386: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.10.0 locally
+Step 0: training=0.460000
+Step 0: validate=0.265600
+Step 100: training=0.940000
+Step 100: validate=0.889400
+Step 200: training=0.950000
+Step 200: validate=0.911400
+Step 300: training=0.880000
+Step 300: validate=0.909200
+Step 400: training=0.920000
+Step 400: validate=0.916200
+Step 500: training=0.950000
+Step 500: validate=0.913400
+Saving trained model
+Step 600: training=0.950000
+Step 600: validate=0.920400
+Step 700: training=0.960000
+Step 700: validate=0.920600
+Step 800: training=0.920000
+Step 800: validate=0.917600
+Step 900: training=0.940000
+Step 900: validate=0.924800
+Step 1000: training=0.940000
+Step 1000: validate=0.920600
+Step 1100: training=0.910000
+Step 1100: validate=0.921800
+Saving trained model
+Step 1200: training=0.900000
+Step 1200: validate=0.919600
+Step 1300: training=0.930000
+Step 1300: validate=0.924400
+Step 1400: training=0.900000
+Step 1400: validate=0.925400
+Step 1500: training=0.940000
+Step 1500: validate=0.921000
+Step 1600: training=0.960000
+Step 1600: validate=0.925800
+Saving trained model
+Step 1700: training=0.940000
+Step 1700: validate=0.921000
+Step 1800: training=0.950000
+Step 1800: validate=0.918200
+Step 1900: training=0.970000
+Step 1900: validate=0.923200
+Step 2000: training=0.940000
+Step 2000: validate=0.925800
+Step 2100: training=0.950000
+Step 2100: validate=0.923800
+Step 2200: training=0.920000
+Step 2200: validate=0.925600
+Saving trained model
+Step 2300: training=0.960000
+Step 2300: validate=0.924000
+Step 2400: training=0.970000
+Step 2400: validate=0.927000
+Step 2500: training=0.930000
+Step 2500: validate=0.924400
+Step 2600: training=0.970000
+Step 2600: validate=0.926000
+Step 2700: training=0.960000
+Step 2700: validate=0.923200
+Saving trained model

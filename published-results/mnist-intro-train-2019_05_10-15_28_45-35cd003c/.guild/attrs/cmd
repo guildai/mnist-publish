@@ -1,0 +1,14 @@
+- /usr/bin/python
+- -um
+- guild.op_main
+- intro
+- --datadir
+- data
+- --rundir
+- .
+- --batch-size
+- '100'
+- --epochs
+- '5'
+- --lr
+- '0.5'
