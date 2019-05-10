@@ -21,8 +21,27 @@
 | Exit Status | 0 |
 
 
+## Files
+
+| File | Size |
+| ---- | ---- |
+| [data/t10k-images-idx3-ubyte.gz](./data/t10k-images-idx3-ubyte.gz) | 1.6M |
+| [data/t10k-labels-idx1-ubyte.gz](./data/t10k-labels-idx1-ubyte.gz) | 4.4K |
+| [data/train-images-idx3-ubyte.gz](./data/train-images-idx3-ubyte.gz) | 9.5M |
+| [data/train-labels-idx1-ubyte.gz](./data/train-labels-idx1-ubyte.gz) | 28.2K |
+| [model/checkpoint](./model/checkpoint) | 69 |
+| [model/export.data-00000-of-00001](./model/export.data-00000-of-00001) | 30.7K |
+| [model/export.index](./model/export.index) | 159 |
+| [model/export.meta](./model/export.meta) | 32.9K |
+| [train/events.out.tfevents.1557520128.omaha](./train/events.out.tfevents.1557520128.omaha) | 294.3K |
+| [validate/events.out.tfevents.1557520129.omaha](./validate/events.out.tfevents.1557520129.omaha) | 249.2K |
+
+
 ## Source
 
-| File |
-| ---- |
-| [expert.py](.guild/source/expert.py) |
+| File | Size |
+| ---- | ---- |
+| [.gitignore](.guild/source/.gitignore) | 6 |
+| [expert.py](.guild/source/expert.py) | 6.0K |
+| [guild.yml](.guild/source/guild.yml) | 2.2K |
+| [intro.py](.guild/source/intro.py) | 5.3K |
