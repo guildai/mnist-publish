@@ -106,7 +106,7 @@ def train():
     save_model()
 
 def maybe_log_accuracy(step, last_training_batch):
-    if step % 20 == 0:
+    if step % 100 == 0:
         evaluate(step, last_training_batch, train_writer, "training")
         validate_data = {
             x: mnist.validation.images,
