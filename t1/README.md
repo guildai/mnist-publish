@@ -1,4 +1,4 @@
-# Run f436d0de769111e9950fc85b764bbf34 - 2019-05-14 16:48:05
+# Run {{ run.id }} - {{ run.started }}
 
 This is a custom template with the perfect visualization for this run:
 
