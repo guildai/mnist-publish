@@ -1,0 +1,27 @@
+compare:
+- =epochs
+- =batch-size
+- =lr
+- train#loss step as step
+- train#loss as loss
+- validate#accuracy as accuracy
+description: Train the MNIST model
+flags:
+  batch-size:
+    default: 100
+    description: Number of images to include in a training batch
+    required: true
+  epochs:
+    default: 10
+    description: Number of epochs to train
+  lr:
+    default: 0.5
+    description: Training learning rate
+flags-import: false
+main: intro --datadir data --rundir .
+objective:
+  maximize: validate#accuracy
+publish:
+  config: null
+  template: default
+requires: data

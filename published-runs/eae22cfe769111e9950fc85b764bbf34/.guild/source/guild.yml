@@ -10,7 +10,7 @@
         - =lr
         - train#loss step as step
         - train#loss as loss
-        - validate#acc as accuracy
+        - validate#accuracy as accuracy
       objective:
         maximize: validate#accuracy
       flags-import: no

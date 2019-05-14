@@ -1,0 +1,158 @@
+Extracting data/train-images-idx3-ubyte.gz
+WARNING: [tensorflow] From /home/garrett/SCM/guild-mnist-publish/intro.py:22: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting data/train-labels-idx1-ubyte.gz
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+Extracting data/t10k-images-idx3-ubyte.gz
+Extracting data/t10k-labels-idx1-ubyte.gz
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: __init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING: [tensorflow] From /home/garrett/.local/lib/python2.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-14 16:48:08.437577: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-05-14 16:48:08.451749: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2019-05-14 16:48:08.451843: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:161] retrieving CUDA diagnostic information for host: omaha
+2019-05-14 16:48:08.451866: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:168] hostname: omaha
+2019-05-14 16:48:08.451944: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:192] libcuda reported version is: 410.104.0
+2019-05-14 16:48:08.452025: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:196] kernel reported version is: 410.104.0
+2019-05-14 16:48:08.452044: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:303] kernel version seems to match DSO: 410.104.0
+2019-05-14 16:48:08.456695: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2711930000 Hz
+2019-05-14 16:48:08.457363: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x7395c30 executing computations on platform Host. Devices:
+2019-05-14 16:48:08.457400: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+Step 0: training=0.490000
+Step 0: validate=0.382400
+Step 100: training=0.840000
+Step 100: validate=0.890000
+Step 200: training=0.910000
+Step 200: validate=0.904200
+Step 300: training=0.950000
+Step 300: validate=0.912000
+Step 400: training=0.950000
+Step 400: validate=0.909600
+Step 500: training=0.920000
+Step 500: validate=0.915600
+Saving trained model
+Step 600: training=0.970000
+Step 600: validate=0.914200
+Step 700: training=0.890000
+Step 700: validate=0.916600
+Step 800: training=0.950000
+Step 800: validate=0.917400
+Step 900: training=0.900000
+Step 900: validate=0.921800
+Step 1000: training=0.940000
+Step 1000: validate=0.922600
+Step 1100: training=0.960000
+Step 1100: validate=0.923000
+Saving trained model
+Step 1200: training=0.920000
+Step 1200: validate=0.920400
+Step 1300: training=0.910000
+Step 1300: validate=0.921000
+Step 1400: training=0.950000
+Step 1400: validate=0.918800
+Step 1500: training=0.950000
+Step 1500: validate=0.924000
+Step 1600: training=0.940000
+Step 1600: validate=0.923800
+Saving trained model
+Step 1700: training=0.920000
+Step 1700: validate=0.922400
+Step 1800: training=0.940000
+Step 1800: validate=0.925400
+Step 1900: training=0.960000
+Step 1900: validate=0.922600
+Step 2000: training=0.940000
+Step 2000: validate=0.927200
+Step 2100: training=0.930000
+Step 2100: validate=0.926600
+Step 2200: training=0.950000
+Step 2200: validate=0.925800
+Saving trained model
+Step 2300: training=0.950000
+Step 2300: validate=0.920200
+Step 2400: training=0.910000
+Step 2400: validate=0.919200
+Step 2500: training=0.950000
+Step 2500: validate=0.923000
+Step 2600: training=0.960000
+Step 2600: validate=0.926400
+Step 2700: training=0.940000
+Step 2700: validate=0.925000
+Saving trained model
+Step 2800: training=0.940000
+Step 2800: validate=0.929200
+Step 2900: training=0.900000
+Step 2900: validate=0.925000
+Step 3000: training=0.940000
+Step 3000: validate=0.920000
+Step 3100: training=0.920000
+Step 3100: validate=0.919800
+Step 3200: training=0.930000
+Step 3200: validate=0.925800
+Step 3300: training=0.950000
+Step 3300: validate=0.924600
+Saving trained model
+Step 3400: training=0.930000
+Step 3400: validate=0.926600
+Step 3500: training=0.920000
+Step 3500: validate=0.924800
+Step 3600: training=0.920000
+Step 3600: validate=0.928200
+Step 3700: training=0.980000
+Step 3700: validate=0.926200
+Step 3800: training=0.940000
+Step 3800: validate=0.926800
+Saving trained model
+Step 3900: training=0.970000
+Step 3900: validate=0.924600
+Step 4000: training=0.900000
+Step 4000: validate=0.927000
+Step 4100: training=0.960000
+Step 4100: validate=0.928000
+Step 4200: training=0.910000
+Step 4200: validate=0.925400
+Step 4300: training=0.950000
+Step 4300: validate=0.926800
+Step 4400: training=0.940000
+Step 4400: validate=0.924800
+Saving trained model
+Step 4500: training=0.920000
+Step 4500: validate=0.929800
+Step 4600: training=0.990000
+Step 4600: validate=0.927400
+Step 4700: training=0.960000
+Step 4700: validate=0.925000
+Step 4800: training=0.970000
+Step 4800: validate=0.926400
+Step 4900: training=0.970000
+Step 4900: validate=0.928600
+Saving trained model
+Step 5000: training=0.920000
+Step 5000: validate=0.923800
+Step 5100: training=0.940000
+Step 5100: validate=0.923600
+Step 5200: training=0.960000
+Step 5200: validate=0.927800
+Step 5300: training=0.970000
+Step 5300: validate=0.925000
+Step 5400: training=0.970000
+Step 5400: validate=0.923600
+Saving trained model
